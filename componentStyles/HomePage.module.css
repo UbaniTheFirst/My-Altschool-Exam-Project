@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.side1{
+  flex: 1;
+  margin: 70px 20px 10px 30px;
+  padding: 0 0 0 10px;
+  position: fixed;
+  right: 40%;
+  left: 0;
+  top: 0;
+  height: 100vh;
+}
+
+
+.username {
+  font-size: 3rem;
+  line-height: 55px;
+  margin: 15px 0 40px 0;
+  background: linear-gradient(to left, #f6fa0af5, green);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation-name: slidein;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 40%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.userInfo {
+  background: linear-gradient(to left, #f6fa0af5, green);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+
+}
+.span-tag {
+  background: linear-gradient(to left, #f6fa0af5, green);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+.homebtns {
+  padding: 20px;
+  width: 200px;
+
+  border-radius: 5px;
+  box-shadow: 0 4px 15px 0 rgba(24, 36, 19, 0.75);
+  margin: 30px 30px;
+  font-size: 1rem;
+  height: 100%;
+  -webkit-background-clip: text;
+  font-size: 1.2rem;
+}
+.side2{
+  padding-left: 20px;
+  border-left: 1px solid greenyellow;
+  position: fixed;
+  left: 60%;
+  width: 40%;
+  top: 40px;
+  text-align:justify;
+}
+figure{
+  margin-top: 70px;
+  margin-bottom: 40px; 
+ display: flex;
+}
+figure img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 40px 10px  40px 10px;
+
+}
+
+
+
